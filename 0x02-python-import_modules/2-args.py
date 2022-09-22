@@ -4,11 +4,11 @@ if __name__ == "__main__":
 
     numberOfArgs = len(argv) - 1
     if numberOfArgs == 0:
-        print("{:d} arguments.".format(numberOfArgs))
+        print("{:s} arguments.".format(numberOfArgs))
     elif numberOfArgs == 1:
-        print("{:d} argument:".format(numberOfArgs))
+        print("{:s} argument:".format(numberOfArgs))
     else:
-        print("{:d} arguments:".format(numberOfArgs))
+        print("{:s} arguments:".format(numberOfArgs))
 
     for i in range(1, numberOfArgs + 1):
-        print("{:d}: {}".format(i, argv[i]))
+        print("{:s}: {:s}".format(i, argv[i]))
