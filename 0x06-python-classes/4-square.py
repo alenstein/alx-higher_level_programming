@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+"""Module defines a class for creating a square """
+
 
 class Square:
     """
