@@ -52,7 +52,7 @@ class Rectangle:
     """
     def area(self):
         """ calculates the area of the rectangle """
-        return self.height() * self.width()
+        return self.__height * self.__width
 
     """
         Public instance method: perimeter(self),
@@ -60,4 +60,4 @@ class Rectangle:
     """
     def perimeter(self):
         """ calculates the perimeter of the rectangle """
-        return 2 * (self.height() + self.width())
+        return 2 * (self.__height + self.__width)
