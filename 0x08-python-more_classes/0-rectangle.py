@@ -5,4 +5,7 @@
 
 
 class Rectangle:
+    """
+        definition for empty class Rectangle
+    """
     pass
