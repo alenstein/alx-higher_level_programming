@@ -6,11 +6,14 @@
 
 class Rectangle:
     """
-        definition for empty class Rectangle
+        definition for class Rectangle
+        Args:
+        width: width of the rectangle
+        height: height of the rectangle
     """
     def __init__(self, width=0, height=0):
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
