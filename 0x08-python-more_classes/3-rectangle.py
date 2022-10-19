@@ -69,12 +69,14 @@ class Rectangle:
             return 2 * (self.__height + self.__width)
 
     def __str__(self):
-        """Returns a represantation of  Rectangle instance,
-        using the '#' character"""
+        """
+            Returns a represantation of  Rectangle instance,
+            using the '#' character.
+        """
         if self.width == 0 or self.height == 0:
             return ""
 
-        rectangle_str = ""
+        rect_str = ""
         for h in range(self.height):
             for w in range(self.width):
                 rect_str += "#"
