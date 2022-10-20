@@ -12,7 +12,7 @@ def add_integer(a, b=98):
         a: first integer.
         b: second integer.
     """
-    if isinstance(a, int) or isinstance(b, int):
+    if isinstance(a, int) and isinstance(b, int):
         pass
     elif isinstance(a, float):
         a = int(a)
