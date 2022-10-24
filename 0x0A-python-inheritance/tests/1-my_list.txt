@@ -1,0 +1,55 @@
+This is the ``1-my_list`` module
+=================================
+
+Using ``MyList``
+----------------
+
+Import the class:
+
+       >>> MyList = __import__("1-my_list").MyList
+
+Testing the class:
+
+	>>> test_list = MyList()
+
+	>>> test_list
+	[]
+
+	>>> test_list.print_sorted()
+	[]
+
+	>>> test_list.append(0)
+
+	>>> test_list.append(1)
+
+	>>> test_list.append(4)
+
+	>>> test_list.append(3)
+
+	>>> test_list.append(2)
+
+	>>> test_list
+	[0, 1, 4, 3, 2]
+
+	>>> test_list.print_sorted()
+	[0, 1, 2, 3, 4]
+
+	>>> t_list = MyList([1, 2, 3, 4, 5])
+
+	>>> t_list
+	[1, 2, 3, 4, 5]
+
+	>>> t_list.print_sorted()
+	[1, 2, 3, 4, 5]
+
+	>>> t_list = MyList([8, 7, -9, 2, -4])
+
+	>>> my_list
+	[8, 7, -9, 2, -4]
+	>>> my_list.print_sorted()
+	[-9, -4, 2, 7, 8]
+
+	>>> str_list = MyList("uaieo")
+
+	>>> my_list.print_sorted()
+	['a', 'e', 'i', 'o', 'u']
