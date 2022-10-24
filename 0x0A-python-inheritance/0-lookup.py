@@ -10,7 +10,7 @@ def lookup(obj):
         definition for def lookup(obj): method
 
         Args:
-        obj: an object of any class.
+        obj: an object of any class to look into.
     """
-    data =  dir(obj)
+    data = dir(obj)
     return data
