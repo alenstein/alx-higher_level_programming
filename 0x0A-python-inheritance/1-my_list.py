@@ -16,4 +16,4 @@ class MyList(list):
 
         my_list = self[:]
         my_list.sort()
-        print("{:d}".format(my_list))
+        print("{}".format(my_list))
