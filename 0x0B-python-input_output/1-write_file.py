@@ -13,7 +13,7 @@ def write_file(filename="", text=""):
         filename: name of the file to write to.
         text: the content to be written to the file.
     """
-    with open(filename, encoding="UTF-8") as wf:
+    with open(filename, 'w', encoding="UTF-8") as wf:
         return(wf.write(text))
 
     wf.close()
