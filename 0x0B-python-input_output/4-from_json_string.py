@@ -15,4 +15,4 @@ def from_json_string(my_str):
         my_str: string object to be serialised to json format.
     """
 
-    return (json.loads(my_str)) 
+    return (json.loads(my_str))
