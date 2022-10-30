@@ -9,7 +9,7 @@ BaseGeometry = __import__("7-base_geometry").BaseGeometry
 class Rectangle(BaseGeometry):
     """ Definition for sub class Rectangle """
 
-    def __init__(self, width=0, height=0):
+    def __init__(self, width, height):
         """Initialiser for new objects
             Args:
             width: width of the new object.
