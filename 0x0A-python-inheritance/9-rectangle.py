@@ -20,8 +20,8 @@ class Rectangle(BaseGeometry):
     def __str__(self):
         """return the rectangle description"""
 
-        return "[{}] {}/{}".format(self.__class__.__name__,
-                                   self.__width, self.__height)
+        return "[{}] {}/{}".format(self.__class__.__name__, self.__width,
+                                   self.__height)
 
     def area():
         """ method calculates the area of the rectangle """
