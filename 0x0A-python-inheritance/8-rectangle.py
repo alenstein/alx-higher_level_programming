@@ -16,6 +16,6 @@ class Rectangle(BaseGeometry):
             height: height of the new object.
         """
         self.integer_validator("width", width)
-        self.__width = width
         self.integer_validator("height", height)
+        self.__width = width
         self.__height = height
