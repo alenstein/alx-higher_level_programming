@@ -11,7 +11,11 @@ class Rectangle(BaseGeometry):
     """
 
     def __init__(self, width, height):
-        """Initialises the rectangle object """
+        """Initialises the rectangle object
+            Args:
+            width: width of the new rectangle.
+            height: height of the new rectangle.
+            """
         self.integer_validator("width", width)
         self.integer_validator("height", height)
         self.__height = height
