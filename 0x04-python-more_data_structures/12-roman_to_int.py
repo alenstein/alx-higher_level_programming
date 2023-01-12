@@ -1,24 +1,32 @@
-#!/usr/bin/python3
 def roman_to_int(roman_string):
-    decimal = 0
-    roman = {}
-    roman['I'] = 1
-    roman['V'] = 5
-    roman['X'] = 10
-    roman['L'] = 50
-    roman['C'] = 100
-    roman['D'] = 500
-    roman['M'] = 1000
+    """
+    Convert a Roman numeral string to an integer.
 
-    if roman_string is None or type(roman_string) != str:
+    Parameters:
+    roman_string (str): A Roman numeral string.
+
+    Returns:
+    int: The corresponding integer value of the Roman numeral.
+    0 if input is not a string or None
+    """
+    if not isinstance(roman_string, str) or roman_string is None:
         return 0
 
-    i = 0
-    while(i < len(roman_string)):
-        if i == len(roman_string) - 1:
-            decimal += roman[roman_string[i]]
-        elif roman[roman_string[i]] < roman[roman_string[i + 1]]:
-            decimal -= roman[roman_string[i]]
+    roman_to_int = {
+        'I': 1,
+        'V': 5,
+        'X': 10,
+        'L': 50,
+        'C': 100,
+        'D': 500,
+        'M': 1000
+    }
+    result = 0
+    for i in range(len(roman_string)):
+        if i > 0 and roman_to_int[roman_string[i]] >
+        roman_to_int[roman_string[i - 1]]:
+            result += roman_to_int[roman_string[i]] - 2 *
+            roman_to_int[roman_string[i - 1]]
         else:
-            decimal += roman[roman_string[i]]
-    return decimal
+            result += roman_to_int[roman_string[i]]
+    return result
