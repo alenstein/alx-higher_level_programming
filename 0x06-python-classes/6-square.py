@@ -33,14 +33,11 @@ class Square:
     @size.setter
     def size(self, value):
         """ setting size value """
-        if isinstance(value, int):
-            pass
-        else:
+        if not isinstance(value, int):
             raise TypeError("size must be an integer!")
         if value < 0:
             raise ValueError("size must be >= 0")
-        else:
-            self.__size = value
+        self.__size = value
 
     """
         Public instance method: def area(self):
@@ -55,15 +52,26 @@ class Square:
     """
     def my_print(self):
         """ function prints a square in stdout """
-        cols = self.__size
-        rows = cols
-
-        if cols == 0:
+        if self.size == 0:
             print()
-
-        for cols in range(rows):
-            for i in range(self.__position[0]):
-                print(" ", end="")
-            for rows in range(self.__size):
-                print("#", end="")
+            return
+        for _ in range(self.position[1]):
             print()
+        for _ in range(self.size):
+            print(" " * self.position[0] + "#" * self.size)
+
+
+my_square_1 = Square(3)
+my_square_1.my_print()
+
+print("--")
+
+my_square_2 = Square(3, (1, 1))
+my_square_2.my_print()
+
+print("--")
+
+my_square_3 = Square(3, (3, 0))
+my_square_3.my_print()
+
+print("--")
