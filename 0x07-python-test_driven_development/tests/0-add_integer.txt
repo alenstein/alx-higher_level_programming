@@ -1,6 +1,14 @@
-		"""
-Tests for the function add_integer.
+"""
+The ``0-add_integer`` module tests
+=============================
 
+Using ``add-integer``
+----------------------
+
+Import the funtion:
+       >>> add_integer = __import__('0-add_integer').add_integer
+
+Testing the function:
 >>> add_integer(1, 2)
 3
 

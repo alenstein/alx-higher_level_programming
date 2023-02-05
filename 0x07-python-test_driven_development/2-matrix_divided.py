@@ -27,3 +27,4 @@ def matrix_divided(matrix, div):
             if type(matrix[index][item]) not in [float, int]:
                 raise TypeError("matrix must be a matrix (list of lists) of " +
                                 "integers/floats")
+        return [[round(element / div, 2) for element in row] for row in matrix]                
