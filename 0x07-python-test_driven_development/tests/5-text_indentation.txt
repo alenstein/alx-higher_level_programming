@@ -1,0 +1,51 @@
+    The "5-text_indentation" module
+    =================
+
+    Using "text_indentation"
+    --------------------
+
+    Importing function:
+        >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+    Testing the function:
+        >>> text_indentation("This is a test string.")
+        This is a test string.
+
+        >>> text_indentation("This is a test string. How are you doing today? Great I hope.")
+        This is a test string.
+
+        How are you doing today?
+
+        Great I hope.
+
+        >>> text_indentation(42)
+        Traceback (most recent call last):
+        TypeError: text must be a string
+        >>> text_indentation("Non autem hoc: igitur ne illud quidem. Fortasse id optimum, sed ubi illud: Plus semper voluptatis?")
+        Non autem hoc: igitur ne illud quidem.
+        Fortasse id optimum, sed ubi illud:
+        Plus semper voluptatis?
+
+        >>> text_indentation("Teneo, inquit, finem illi videri nihil dolere. Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens.")
+        Teneo, inquit, finem illi videri nihil dolere.
+        Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum
+        rationi oboediens.
+
+        >>> text_indentation("Si id dicis, vicimus.")
+        Si id dicis, vicimus.
+
+        >>> text_indentation("Inde sermone vario sex illa a Dipylo stadia confecimus.")
+        Inde sermone vario sex illa a Dipylo
+        stadia confecimus.
+
+        >>> text_indentation("Sin aliud quid voles, postea. Quae animi affectio suum cuique tribuens atque hanc, quam dico.")
+        Sin aliud quid voles, postea.
+        Quae animi affectio suum cuique tribuens atque hanc, quam dico.
+
+        >>> text_indentation("Utinam quidem dicerent alium alio beatiorem!")
+        Utinam quidem dicerent alium alio
+        beatiorem!
+
+        >>> text_indentation("Iam ruinas videres")
+        Iam ruinas videres
+
