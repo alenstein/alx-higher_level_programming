@@ -1,0 +1,7 @@
+import unittest
+
+from 0-add_integer import add_integer
+class TestAddinteger(unittest.TestCase):
+	def test_add_integer(self):
+		self.assertEqual(add_integer(1, 2), 3)
+		
