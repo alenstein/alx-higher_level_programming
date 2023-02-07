@@ -1,0 +1,30 @@
+The ``2-is-same_class`` module  tests
+====================================
+
+Using ``is_same_class``
+----------------------
+
+Importing function:
+>>> is_same_class = import('2-is_same_class').is_same_class
+
+Testing the function:
+>>> is_same_class(2, int)
+True
+>>> is_same_class(2.0, int)
+False
+>>> is_same_class(2.0, float)
+True
+>>> is_same_class("a", str)
+True
+>>> is_same_class([], list)
+True
+>>> is_same_class({}, dict)
+True
+>>> is_same_class(True, bool)
+True
+>>> is_same_class((), tuple)
+True
+>>> is_same_class(set(), set)
+True
+>>> is_same_class(frozenset(), frozenset)
+True

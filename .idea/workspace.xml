@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8537c5-632a-48f1-bed5-609fbd3154d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/0x00-python-hello_world/2-print.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-python-hello_world/2-print.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x06-python-classes/6-square.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x06-python-classes/6-square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0A-python-inheritance/tests/0-lookup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0A-python-inheritance/tests/2-is_same_class.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0A-python-inheritance/tests/1-my_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0x0A-python-inheritance/tests/1-my_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0A-python-inheritance/tests/7-base_geometry.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,7 +33,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2G5dCunz1fUO9eHyVr9KWBey3VK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

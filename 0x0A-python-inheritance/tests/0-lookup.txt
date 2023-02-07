@@ -1,0 +1,53 @@
+The ``0-lookup`` module tests
+==========================
+
+Using ``lookup``
+----------------
+
+Importing function:
+	>>> lookup = import('0-lookup').lookup
+
+Testing the function:
+>>> result = lookup("Hello World")
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+>>> result = lookup([1, 2, 3, 4, 5])
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+
+>>> result = lookup({'name': 'John', 'age': 30})
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+
+>>> result = lookup(12345)
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+
+>>> result = lookup(True)
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+
+>>> class TestClass:
+...     pass
+>>> result = lookup(TestClass)
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+
+>>> result = lookup(None)
+>>> isinstance(result, list)
+True
+>>> all(isinstance(i, str) for i in result)
+True
+
