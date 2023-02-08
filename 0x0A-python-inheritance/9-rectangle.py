@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Module containing a class Rectangle that inherits from BaseGeometry
+"""
+Module containing a class Rectangle that inherits from BaseGeometry
     (7-base_geometry.py). (task based on 8-rectangle.py)
 """
 
@@ -7,7 +8,7 @@ BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """Definition for class rectangle with instatiation
+    """Definition for class rectangle with instantiation
     """
 
     def __init__(self, width, height):
