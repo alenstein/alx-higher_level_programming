@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-""" Module containing definition for class Student"""
+#!/usr/bin/bash
+""" Module containing code for a class Student based on 9-student.py"""
 
 
 class Student:
@@ -23,14 +23,20 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attrs=None):
         """Retrieve a dictionary representation of a Student instance.
+
+        Args:
+            attrs (list): A list of strings containing the attributes to retrieve.
 
         Returns:
             dict: A dictionary representation of a Student instance.
         """
-        return {
-            'first_name': self.first_name,
-            'last_name': self.last_name,
-            'age': self.age
-        }
+        if attrs is None:
+            return {
+                'first_name': self.first_name,
+                'last_name': self.last_name,
+                'age': self.age
+            }
+        else:
+            return {attr: getattr(self, attr) for attr in attrs if hasattr(self, attr)}git add
