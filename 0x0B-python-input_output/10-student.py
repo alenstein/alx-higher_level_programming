@@ -39,4 +39,4 @@ class Student:
                 'age': self.age
             }
         else:
-            return {attr: getattr(self, attr) for attr in attrs if hasattr(self, attr)}git add
+            return {attr: getattr(self, attr) for attr in attrs if hasattr(self, attr)}
