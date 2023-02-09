@@ -12,5 +12,4 @@ def append_write(filename="", text=""):
         int: The number of characters added.
     """
     with open(filename, "a", encoding="utf8") as f:
-        char_count = f.write(text)
-        return char_count
+        return f.write(text)
