@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8537c5-632a-48f1-bed5-609fbd3154d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x0A-python-inheritance/10-square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0A-python-inheritance/9-rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0A-python-inheritance/9-rectangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
