@@ -14,7 +14,7 @@ class Student:
     def __init__(self, first_name, last_name, age):
         """Initialize the student with their first name, last name, and age.
 
-        Args:
+        Parameters:
             first_name (str): The student's first name.
             last_name (str): The student's last name.
             age (int): The student's age.
@@ -26,7 +26,7 @@ class Student:
     def to_json(self, attrs=None):
         """Retrieve a dictionary representation of a Student instance.
 
-        Args:
+        Parameters:
             attrs (list): A list of strings containing the attributes to retrieve.
 
         Returns:
