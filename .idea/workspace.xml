@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8537c5-632a-48f1-bed5-609fbd3154d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x07-python-test_driven_development/100-matrix_mul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x07-python-test_driven_development/6-max_integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x07-python-test_driven_development/6-max_integer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/10-student.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/10-student.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f8537c5-632a-48f1-bed5-609fbd3154d6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
