@@ -1,0 +1,43 @@
+"""
+The ``100-matrix_mul`` module tests
+=============================
+
+Using ``matrix_mul``
+----------------------
+
+Import the function:
+       >>> matrix_mul = __import__('100-matrix_mul').matrix_mul
+
+>>> matrix_mul([[1, 2, 3], [4, 5, 6]], [[7, 8], [9, 10], [11, 12]])
+[[58, 64], [139, 154]]
+
+# Test multiplication of matrices of different sizes
+>>> matrix_mul([[1, 2], [3, 4]], [[1, 2, 3], [4, 5, 6]])
+Traceback (most recent call last):
+    ...
+ValueError: m_a and m_b can't be multiplied
+
+# Test empty matrix
+>>> matrix_mul([], [[1, 2], [3, 4]])
+Traceback (most recent call last):
+    ...
+ValueError: m_a can't be empty
+
+# Test matrix with empty rows
+>>> matrix_mul([[], [], []], [[1, 2], [3, 4]])
+Traceback (most recent call last):
+    ...
+ValueError: each row of m_a must be of the same size
+
+# Test invalid input
+>>> matrix_mul([[1, 2], [3, 4], 5], [[1, 2], [3, 4], [5, 6]])
+Traceback (most recent call last):
+    ...
+TypeError: m_a should contain only integers or floats
+
+# Test invalid input
+>>> matrix_mul([[1, 2], [3, 4], [5, 6]], [[1, 2], [3, 4], [5, "6"]])
+Traceback (most recent call last):
+    ...
+TypeError: m_b should contain only integers or floats
+"""
