@@ -41,9 +41,6 @@ def matrix_mul(m_a, m_b):
            a new matrix representing the product of teh two matrices.
     """
 
-    rows = len(m_b)
-    cols = len(m_a[0])
-
     # test if matrix multiplication is possible.
     if not (len(m_b) == len(m_a[0])):
         raise ValueError("m_a and m_b can't be multiplied")
