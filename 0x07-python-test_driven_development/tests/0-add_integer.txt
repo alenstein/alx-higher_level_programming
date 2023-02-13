@@ -5,7 +5,7 @@ The ``0-add_integer`` module tests
 Using ``add-integer``
 ----------------------
 
-Import the funtion:
+Import the function:
        >>> add_integer = __import__('0-add_integer').add_integer
 
 Testing the function:
@@ -16,7 +16,8 @@ Testing the function:
 98
 
 >>> add_integer(2)
-100
+100    validate_list(m_a)
+    validate_list(m_b)
 
 >>> add_integer(100.3, -2)
 98
