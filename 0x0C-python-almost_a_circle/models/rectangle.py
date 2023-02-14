@@ -1,8 +1,7 @@
 #!/usr/bn/python3
 """ Module containing the definition for class Rectangle"""
 
-
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):
@@ -19,7 +18,7 @@ class Rectangle(Base):
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize a new instance of the Rectangle class.
 
-        Args:
+        Parameters:
             width (int): The width of the rectangle.
             height (int): The height of the rectangle.
             x (int, optional): The horizontal position of the rectangle.
@@ -44,7 +43,7 @@ class Rectangle(Base):
     def width(self, value):
         """Set the width of the rectangle.
 
-        Args:
+        Parameters:
             value (int): The new width of the rectangle.
 
         Raises:
@@ -66,7 +65,7 @@ class Rectangle(Base):
     def height(self, value):
         """Set the height of the rectangle.
 
-        Args:
+        Parameters:
             value (int): The new height of the rectangle.
 
         Raises:
@@ -88,7 +87,7 @@ class Rectangle(Base):
     def x(self, value):
         """Set the horizontal position of the rectangle.
 
-        Args:
+        Parameters:
             value (int): The new horizontal position of the rectangle.
 
         Raises:
@@ -110,7 +109,7 @@ class Rectangle(Base):
     def y(self, value):
         """Set the vertical position of the rectangle.
 
-        Args:
+        Parameters:
             value (int): The new vertical position of the rectangle.
 
         Raises:
