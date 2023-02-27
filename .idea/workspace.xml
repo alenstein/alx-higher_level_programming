@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8537c5-632a-48f1-bed5-609fbd3154d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/0-main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/1-main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/0-read_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/0-read_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/1-write_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/1-write_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/10-student.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/10-student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/2-append_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/2-append_write.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/3-to_json_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/3-to_json_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/4-from_json_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/4-from_json_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/5-save_to_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/5-save_to_json_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/6-load_from_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/6-load_from_json_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/7-add_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/7-add_item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/8-class_to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/8-class_to_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/9-student.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/9-student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/rectangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ytest.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
