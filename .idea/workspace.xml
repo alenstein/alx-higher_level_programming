@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f8537c5-632a-48f1-bed5-609fbd3154d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/0-main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/1-main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/0-read_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/0-read_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/1-write_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/1-write_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/10-student.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/10-student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/2-append_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/2-append_write.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/3-to_json_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/3-to_json_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/4-from_json_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/4-from_json_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/5-save_to_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/5-save_to_json_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/6-load_from_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/6-load_from_json_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/7-add_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/7-add_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/8-class_to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/8-class_to_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0B-python-input_output/9-student.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0B-python-input_output/9-student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x0C-python-almost_a_circle/models/rectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ytest.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +62,56 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager" selected="Python.1-main">
+    <configuration name="0-main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alx-higher_level_programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0x0C-python-almost_a_circle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0x0C-python-almost_a_circle/0-main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1-main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alx-higher_level_programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0x0C-python-almost_a_circle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0x0C-python-almost_a_circle/1-main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1-main" />
+        <item itemvalue="Python.0-main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

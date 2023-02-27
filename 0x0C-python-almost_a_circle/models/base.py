@@ -5,7 +5,6 @@
 class Base:
     """
     The base class for all other classes in this project.
-
     The goal of this class is to manage the id attribute in all future classes
     and to avoid duplicating the same code and bugs.
 
