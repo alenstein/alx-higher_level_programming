@@ -5,7 +5,7 @@ import unittest
 import sys
 sys.path.append("../../models/")
 
-from base import Base
+Base = __import__('base').Base
 
 
 class TestBase(unittest.TestCase):
@@ -39,3 +39,7 @@ class TestBase(unittest.TestCase):
         b1 = Base()
         self.assertTrue(hasattr(b1, "id"))
         self.assertFalse(hasattr(b1, "__nb_objects"))
+
+
+if __name__ == '__main__':
+    unittest.main()

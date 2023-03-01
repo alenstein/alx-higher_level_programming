@@ -4,7 +4,9 @@ import unittest
 import sys
 sys.path.append("../../models/")
 
-from rectangle import Rectangle
+Rectangle = __import__('rectangle').Rectangle
+
+
 class TestRectangle(unittest.TestCase):
 
     def test_constructor(self):
@@ -50,6 +52,7 @@ class TestRectangle(unittest.TestCase):
             rect.y = "four"
         with self.assertRaises(ValueError):
             rect.y = -1
+
 
 if __name__ == '__main__':
     unittest.main()
