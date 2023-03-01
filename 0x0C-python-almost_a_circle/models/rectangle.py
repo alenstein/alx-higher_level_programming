@@ -1,18 +1,10 @@
-#!/usr/bn/python3
+#!/usr/bin/python3
 """ Module containing the definition for class Rectangle"""
 
-from base import Base
-
+Base = __import__('base').Base
 
 class Rectangle(Base):
     """A class that represents a rectangle.
-
-    Attributes:
-        id (int): A unique identifier for the instance.
-        width (int): The width of the rectangle.
-        height (int): The height of the rectangle.
-        x (int): The horizontal position of the rectangle.
-        y (int): The vertical position of the rectangle.
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
