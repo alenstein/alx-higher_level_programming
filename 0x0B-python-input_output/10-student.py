@@ -27,7 +27,8 @@ class Student:
         """Retrieve a dictionary representation of a Student instance.
 
         Parameters:
-            attrs (list): A list of strings containing the attributes to retrieve.
+            attrs (list): A list of strings containing the attributes to
+             retrieve.
 
         Returns:
             dict: A dictionary representation of a Student instance.
@@ -39,4 +40,5 @@ class Student:
                 'age': self.age
             }
         else:
-            return {attr: getattr(self, attr) for attr in attrs if hasattr(self, attr)}
+            return {attr: getattr(self, attr) for attr in attrs
+                    if hasattr(self, attr)}
