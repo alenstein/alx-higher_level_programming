@@ -23,11 +23,11 @@ class Rectangle(Base):
             id (int, optional): The unique identifier for the instance.
                 Defaults to None.
         """
-        super().__init__(id)
         self.__width = width
         self.__height = height
         self.__x = x
         self.__y = y
+        super().__init__(id)
 
     @property
     def width(self):
@@ -116,3 +116,18 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y cannot be negative")
         self.__y = value
+
+    def area(self):
+        """ returns the area of the rectangle object """
+        return self.__width * self.__height
+
+    def display(self):
+        """
+        displays a rectangle that  fits the dimensions x and y.
+        """
+        rectangle = self.__y * "\n"
+        for i in range(self.__height):
+            rectangle += (" " * self.__x)
+            rectangle += ("#" * self.__width) + "\n"
+
+        print(rectangle, end='')
