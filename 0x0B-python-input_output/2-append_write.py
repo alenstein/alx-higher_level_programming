@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Module containing function for appending text to a file."""
 
 
 def append_write(filename="", text=""):
