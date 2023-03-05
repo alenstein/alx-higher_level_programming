@@ -46,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_base.TestBase">
+  <component name="RunManager" selected="Python.rectangle">
     <configuration name="0-main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alx-higher_level_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
