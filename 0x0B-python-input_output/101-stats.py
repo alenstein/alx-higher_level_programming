@@ -18,7 +18,7 @@ def print_metrics(counts, file_size):
         print("{}: {}".format(code, count))
 
 
-def process_line(line):
+def process_line(line=""):
     """
     Processes a single log line and updates the counts and file size
     """
