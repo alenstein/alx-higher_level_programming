@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 """ Module containing code for a class Student based on 9-student.py"""
 
 

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Module containing function for loading data from json file."""
 import json
 
 
