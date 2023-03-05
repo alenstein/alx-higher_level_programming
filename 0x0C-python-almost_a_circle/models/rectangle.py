@@ -2,7 +2,7 @@
 """ Module containing the definition for class Rectangle"""
 
 import sys
-sys.path.append("/models/")
+sys.path.append("models/")
 
 Base = __import__('base').Base
 
